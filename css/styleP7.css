@@ -1,0 +1,264 @@
+
+.txt{
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.txt h5{
+  font-size: 34px;
+  font-weight: 600px;
+}
+.txt h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+/*------------- Navbar Section----------------------*/
+#navbar a{
+  color: #ffc107;
+  padding-left: 10px;
+  font-weight: bold;
+}
+#navbar a:hover{
+  color: #ffc107;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+/*-------------Slider Navbar ----------------------*/
+.sldr{
+  height: 500px;
+  border:05px solid Green;
+  margin-top: 70px;
+}
+.imgs img{
+  padding-top: 10px;
+  height: 480px;
+  width: 100%;
+}
+
+.carousel-caption h5{
+  font-weight: bolder;
+  font-size: 70px;
+  color: #ffc107;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px #C35817;
+  padding-bottom: 50px;
+}
+/*---------------Services Section --------------------*/
+.services{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/img2.jpg');
+  background-size: cover;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.services h1{
+  text-align: center;
+  padding-top: 20px;
+}
+.services hr{
+  width: 19%;
+  height: 3px;
+  background-color: #C9C299;
+}
+.services .fa{
+  width: 80px;
+  height: 80px;
+  font-size: 45px;
+  padding-top: 15px;
+  border: 1px solid white;
+  border-radius:50%;
+  color: #ffc107;
+  margin:20px 0;
+}
+.services p{
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+.services .col-md-3:hover{
+  background-color: #5E767E;
+  transition: 1s ease-in-out;
+  border-radius: 5px;
+}
+/*---------------Team Setion -----------------------*/
+.team{
+  margin-top:20px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
+  background-size: cover;
+  background-size: 100%;
+  background-attachment: fixed;
+  color: #f8f9fa;
+}
+.team img{
+  width: 200px;
+  height: 250px;
+  filter: grayscale(0.8);
+  margin:20px 0;
+}
+.team img:hover{
+  width: 200px;
+  height: 250px;
+  filter: grayscale(0);
+  transition: 1s ease-in-out;
+  transform: rotateY(360deg);
+}
+.team h1{
+
+  text-align: center;
+  padding-top: 20px;
+}
+.team h5{
+  color: #ffc107;
+  text-align: center;
+  padding-top: 10px;
+}
+.team hr{
+  width: 19%;
+  height: 3px;
+  background-color: #C9C299;
+}
+/*-----------------Get Domain Section -------------------*/
+.domain{
+  margin-top:20px;
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+.domain h2{
+  padding-top: 90px;
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px #ffc107;
+}
+.domain h2:hover{
+  text-shadow: 2px 2px 3px #007bff;
+
+}
+/*--------------Pricing Sectoin ----------------------*/
+.pricing{
+ margin-top:20px;
+}
+.pricing h1{
+  text-align: center;
+  padding-top: 20px;
+}
+.pricing hr{
+  width: 22%;
+  height: 3px;
+  background-color: #343a40;
+  margin-bottom: 25px;
+}
+.pricing h3{
+  background-color: #ffc107;
+}
+.pricing ul{
+  float: left;
+  text-align: left;
+
+}
+.pricing li{
+  list-style-type: none;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.pricing .fa-check-circle{
+  font-size:18px ;
+  color: green;
+}
+.pricing .fa-times-circle{
+  font-size:18px ;
+  color: red;
+}
+.pricing a{
+  width: 100%;
+  background-color:#ffc107; 
+  font-size: 18px;
+  font-weight: bold;
+}
+.pricing .col-md-3:hover{
+  box-shadow: 0px 0px 2px black;
+}
+/*---------------Team Setion -----------------------*/
+.testimonial{
+  margin-top:20px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
+  background-size: cover;
+  background-size: 100%;
+  background-attachment: fixed;
+  color: #f8f9fa;
+}
+
+.testimonial h1{
+  text-align: center;
+  padding-top: 20px;
+}
+.testimonial h6{
+  color: #ffc107;
+  text-align: center;
+  padding-top: 0px;
+  font-size: 22px;
+}
+.testimonial hr{
+  width: 21%;
+  height: 3px;
+  background-color: #C9C299;
+}
+.testimonial img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  filter: grayscale(0.8);
+  margin:10px 0;
+  padding: 20px;
+  
+}
+.testimonial img:hover{
+  filter: grayscale(0);
+  transition: 1s ease-in-out;
+  transform: rotate(360deg);
+  
+}
+.testimonial p{
+  padding: 15px;
+  text-align: center;
+  
+}
+/*---------------Get In Touch Section --------------------*/
+.in-touch{
+  margin-top: 20px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../images/img2.jpg');
+  background-size: cover;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.in-touch h1{
+  color: #f8f9fa;
+  text-align: center;
+  padding-top: 20px;
+}
+.in-touch hr{
+  width: 25%;
+  height: 3px;
+  background-color: #C9C299;
+}
+.in-touch label{
+  font-size: 22px;
+  color: #ffc107;
+  
+}
+.in-touch .form-input{
+  padding-top: 30px;
+}
+.text-left{
+  margin-top: 40px;
+}
+.in-touch input{
+  border:2px solid #ffc107;
+}
+.in-touch textarea{
+  border:2px solid #ffc107;
+  margin-bottom: 10px;
+}
